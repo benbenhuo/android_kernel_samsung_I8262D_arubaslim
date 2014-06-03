@@ -22,8 +22,8 @@ typedef u64 __nocast cputime64_t;
 #define cputime64_zero (0ULL)
 #define cputime64_add(__a, __b)		((__a) + (__b))
 #define cputime64_sub(__a, __b)		((__a) - (__b))
-#define cputime64_to_jiffies64(__ct)	(__ct)
-#define jiffies64_to_cputime64(__jif)	(__jif)
+
+
 #define cputime_to_cputime64(__ct)	((u64) __ct)
 #define cputime64_gt(__a, __b)		((__a) >  (__b))
 

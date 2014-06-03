@@ -197,7 +197,7 @@ export KBUILD_BUILDHOST := $(SUBARCH)
 #ARCH             =arm
 #CROSS_COMPILE    = ../../arm-eabi-4.4.3/bin/arm-eabi-
 ARCH		?= arm
-CROSS_COMPILE	?= /home/hell-lock/Desktop/sakindia123-Android_Toolchains-4bbcf1f/arm-eabi-4.4.3/bin/arm-eabi-
+CROSS_COMPILE	:= /home/prototype-u/toolchain/old/arm-eabi-4.4.3/bin/arm-eabi-
 
 # Architecture as present in compile.h
 UTS_MACHINE 	:= $(ARCH)
